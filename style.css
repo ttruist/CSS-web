@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Oswald", sans-serif;
+        }
+
+        body {
+            text-align: center;
+        }
+
+
+        header {
+            background: brown;
+            color: white;
+            
+        }
+
+        header h1{
+            font-family: "Bungee Tint";
+            background-color: orange;
+        }
+
+        #div-header {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        button{
+            border-radius: 10px;
+            height: 40px;
+            width: 75px;
+            background-color: lawngreen;
+            cursor: pointer;
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #a-header:hover{
+            background-color: orange;
+            transition-duration: 1s;
+        }
+
+        button:hover{
+            text-decoration: underline;
+        
+        }
+
+
+        button:active{
+            opacity: 0.4;
+        }
+
+        #italo-foto {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        aside {
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #lateral img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            height: 90px;
+        }
+
+        footer h1{
+            font-family: "Bungee Tint";
+            background-color: orange;
+
+        }
+
+        #h1-form{
+            font-family: "Bungee Tint";
+            background-color: orange;
+
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            #div-header p, #div-header h2 {
+                font-size: 1rem;
+            }
+
+            #italo-foto {
+                max-width: 300px;
+            }
+        }
